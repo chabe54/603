@@ -1,0 +1,185 @@
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi Portafolio 603A
+	</title>
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>REBROTE</title>
+</head>
+<!--nav izquierdo-->
+<nav>
+	<ul>
+		<li><a href="#">Inicio
+		</a></li>
+		<li><a href="#">Acerca de</a></li>
+		<li><a href="#">Proyectos</a></li>
+		<ul>
+			<li><a href="#">Calificaciones</a></li>
+			<li><a href="">Directorio</a></li>
+			<li><a href="#">Reforestación</a></li>
+		</ul> </li>
+		<li><a href="#">Contacto</a></li>
+	</ul>
+</nav>
+<div class="contenido">
+<!--header con imagen-->
+<header>
+	<img src="img.jpg" alt="Foto de perfil">
+	<div class="titulo">
+		<h1>Mi portafolio Blanca isabel.H</h1>
+		<p>Hola mi nombres es: Blanca isabel, soy experta en programación</p>
+	</div>
+</header>
+</head>
+	<main>
+		<aside>
+			<h2>Noticias</h2>
+			<p>Últimas novedades de nuestro sector.</p>
+		</aside>
+		<article>
+			<h2>Bienvenido a nuetro sitio</h2>
+			<p>Este articulo contiene la informacion principal para los visitantes.</p>
+			<section>
+				<h3>Mision</h3>
+				<p>Dar a conocer los proyectos creados por los jovenes en la materia de Paginas web, promoviendo el aprendizaje practico, el pensamiento critico y el trabajo colaborativo, al tiempo que se fomentan el uso responsable y creativo de las tecnologias de la informacion para resolver necesidades reales y fortalecer su formacion integral.</p>
+			</section>
+			<section>
+			<h3>Vision</h3>
+			<p>Ser una plataforma reconocida por exibir la creatividad, innovacion y talento digital de los estudiantes del COBAEM Plantel 40 Ixtlahuaca, proyectando sus habilidades en el desarrollo de paginas web como una herramienta de impacto academico, social y profecional..</p>
+			</section>
+		</article>
+		<aside>
+			<h2>Enlaces utiles</h2>
+			<ul>
+				<li><a href="#">Terminos de uso</a></li>
+				<li><a href="#">Politica de privacidad</a></li>
+			</ul>
+		</aside>
+		<aside>
+			<h2>Publicidad</h2>
+			<p>Espacio reservado para promociones o avisos importantes.</p>
+		</aside>
+	</main>
+	<!--footer-->
+	<footer>
+		<h3>Elaborado por: Blanca isabel H.A</h3>
+		<p>&copy; 2025 todos los derechos reservados.</p>
+	</footer>
+</div>
+	</html>
+<style>
+body{
+	margin: 0;
+front-family:'segoe UI',sans-serif;
+display: flex;
+}
+/*NAV (izquierda)*/
+Nav{
+	width: 220px;
+	min-height: 100vh;
+	background: linear-gradient(to bottom,#00ABE4);
+	color:white;
+	padding-top: 30px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+Nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+Nav ul li{
+	position: relative;
+}
+Nav ul li a{
+	display: block;
+	padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+Nav ul li a:hover{
+	background-color:rgb(255, 255, 255 / 0.1);
+}
+/*submenu*/
+nav ul li ul{
+	display: none;
+	background-color:#323232 ;
+}
+Nav ul li:hover ul{
+	display: block;
+}
+Nav ul li ul li a{
+	padding-left: 30px;
+	font-weight: normal;
+}
+/*contenido*/
+.contenido{
+	margin-left: 220px;
+	width: calc(100% - 220px);
+}
+header{
+	background: linear-gradient(to right,#2272FF,#DDD0C8);
+	color: width;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+header img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+header .titulo{
+	text-align: left;
+}
+main{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+article{
+	flex: 2;
+	background-color: white;
+	margin: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section{
+	background-color: #fff;
+	padding: 15px;
+	margin-top: 20px;
+	border-left: 0 0 5px solid #E1B0AC;
+}
+aside{
+	flex: 1;
+	background-color: #96C2DB;
+	margin: 10px;
+	padding: 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+footer{
+	background:linear-gradient(to right,#C5ADC5,#B2B5E0);
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+footer h3{
+	margin:0;
+	font-size: 1.1em;
+}
+footer p{
+	margin: 5px 0 0 0 ;
+	font-size: 0.9em;
+}
+</style>
